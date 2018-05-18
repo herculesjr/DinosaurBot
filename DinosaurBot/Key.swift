@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Key.swift
 //  DinosaurBot
 //
 //  Created by Hercules Junior on 18/05/18.
@@ -8,5 +8,8 @@
 
 import Foundation
 
-
-
+enum Key: CGKeyCode {
+    case space = 0x31
+    case downArrow = 0x7D
+    case upArrow = 0x7E
+}
