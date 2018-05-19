@@ -10,6 +10,8 @@
 		2F1416D520AF82D4000EA817 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1416D420AF82D4000EA817 /* main.swift */; };
 		2F1416DC20AF8BA5000EA817 /* GameHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1416DB20AF8BA5000EA817 /* GameHandler.swift */; };
 		2F1416DE20AF96C3000EA817 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1416DD20AF96C3000EA817 /* Key.swift */; };
+		2F1416E020AFA03E000EA817 /* WindowImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1416DF20AFA03E000EA817 /* WindowImage.swift */; };
+		2F1416E220AFA9E2000EA817 /* WindowInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1416E120AFA9E2000EA817 /* WindowInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		2F1416D420AF82D4000EA817 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2F1416DB20AF8BA5000EA817 /* GameHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHandler.swift; sourceTree = "<group>"; };
 		2F1416DD20AF96C3000EA817 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		2F1416DF20AFA03E000EA817 /* WindowImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowImage.swift; sourceTree = "<group>"; };
+		2F1416E120AFA9E2000EA817 /* WindowInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 			children = (
 				2F1416D420AF82D4000EA817 /* main.swift */,
 				2F1416DB20AF8BA5000EA817 /* GameHandler.swift */,
+				2F1416DF20AFA03E000EA817 /* WindowImage.swift */,
+				2F1416E120AFA9E2000EA817 /* WindowInfo.swift */,
 				2F1416DD20AF96C3000EA817 /* Key.swift */,
 			);
 			path = DinosaurBot;
@@ -127,7 +133,9 @@
 			files = (
 				2F1416DC20AF8BA5000EA817 /* GameHandler.swift in Sources */,
 				2F1416D520AF82D4000EA817 /* main.swift in Sources */,
+				2F1416E220AFA9E2000EA817 /* WindowInfo.swift in Sources */,
 				2F1416DE20AF96C3000EA817 /* Key.swift in Sources */,
+				2F1416E020AFA03E000EA817 /* WindowImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +260,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DLZWQ7ZL8A;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -262,6 +271,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DLZWQ7ZL8A;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
